@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.deltation.toon-shader": {
+      "version": "file:C:/Users/sabot/Downloads/urp-toon-shader-2021.3/urp-toon-shader-2021.3/Packages/com.deltation.toon-shader",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "12.1.6"
+      }
+    },
     "com.unity.burst": {
       "version": "1.6.5",
       "depth": 1,
@@ -262,6 +270,15 @@
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.particlesystem": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.toonshader": {
+      "version": "0.8.5-preview",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "10.0.0"
       },
       "url": "https://packages.unity.com"
     },
