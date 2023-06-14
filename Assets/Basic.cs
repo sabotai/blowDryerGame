@@ -55,7 +55,7 @@ public partial class @Basic : IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Left Alt"",
+                    ""name"": ""LeftAlt"",
                     ""type"": ""Button"",
                     ""id"": ""75cb2bf0-c2f7-450e-bad0-5bab1c393394"",
                     ""expectedControlType"": ""Button"",
@@ -64,9 +64,27 @@ public partial class @Basic : IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Right Alt"",
+                    ""name"": ""RightAlt"",
                     ""type"": ""Button"",
                     ""id"": ""72f3d05a-9396-4563-85ea-0ab884d8e580"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""LeftTrigger"",
+                    ""type"": ""Button"",
+                    ""id"": ""ecd42bd1-f2bd-42c7-ab11-061bd031009f"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""RightTrigger"",
+                    ""type"": ""Button"",
+                    ""id"": ""34a38fc3-29bc-42ec-91f3-32e0a2c127e9"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -301,7 +319,7 @@ public partial class @Basic : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
-                    ""action"": ""Left Alt"",
+                    ""action"": ""LeftAlt"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -312,7 +330,29 @@ public partial class @Basic : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Right Alt"",
+                    ""action"": ""RightAlt"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""02cbe412-9d23-4b38-a26c-38da6a7fd342"",
+                    ""path"": ""<Gamepad>/leftTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""LeftTrigger"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7bdc0a92-9509-498f-9bbb-c17c5f1756c5"",
+                    ""path"": ""<Gamepad>/rightTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""RightTrigger"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -903,8 +943,10 @@ public partial class @Basic : IInputActionCollection2, IDisposable
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
-        m_Player_LeftAlt = m_Player.FindAction("Left Alt", throwIfNotFound: true);
-        m_Player_RightAlt = m_Player.FindAction("Right Alt", throwIfNotFound: true);
+        m_Player_LeftAlt = m_Player.FindAction("LeftAlt", throwIfNotFound: true);
+        m_Player_RightAlt = m_Player.FindAction("RightAlt", throwIfNotFound: true);
+        m_Player_LeftTrigger = m_Player.FindAction("LeftTrigger", throwIfNotFound: true);
+        m_Player_RightTrigger = m_Player.FindAction("RightTrigger", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -981,6 +1023,8 @@ public partial class @Basic : IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Fire;
     private readonly InputAction m_Player_LeftAlt;
     private readonly InputAction m_Player_RightAlt;
+    private readonly InputAction m_Player_LeftTrigger;
+    private readonly InputAction m_Player_RightTrigger;
     public struct PlayerActions
     {
         private @Basic m_Wrapper;
@@ -990,6 +1034,8 @@ public partial class @Basic : IInputActionCollection2, IDisposable
         public InputAction @Fire => m_Wrapper.m_Player_Fire;
         public InputAction @LeftAlt => m_Wrapper.m_Player_LeftAlt;
         public InputAction @RightAlt => m_Wrapper.m_Player_RightAlt;
+        public InputAction @LeftTrigger => m_Wrapper.m_Player_LeftTrigger;
+        public InputAction @RightTrigger => m_Wrapper.m_Player_RightTrigger;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1014,6 +1060,12 @@ public partial class @Basic : IInputActionCollection2, IDisposable
                 @RightAlt.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRightAlt;
                 @RightAlt.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRightAlt;
                 @RightAlt.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRightAlt;
+                @LeftTrigger.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLeftTrigger;
+                @LeftTrigger.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLeftTrigger;
+                @LeftTrigger.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLeftTrigger;
+                @RightTrigger.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRightTrigger;
+                @RightTrigger.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRightTrigger;
+                @RightTrigger.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRightTrigger;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -1033,6 +1085,12 @@ public partial class @Basic : IInputActionCollection2, IDisposable
                 @RightAlt.started += instance.OnRightAlt;
                 @RightAlt.performed += instance.OnRightAlt;
                 @RightAlt.canceled += instance.OnRightAlt;
+                @LeftTrigger.started += instance.OnLeftTrigger;
+                @LeftTrigger.performed += instance.OnLeftTrigger;
+                @LeftTrigger.canceled += instance.OnLeftTrigger;
+                @RightTrigger.started += instance.OnRightTrigger;
+                @RightTrigger.performed += instance.OnRightTrigger;
+                @RightTrigger.canceled += instance.OnRightTrigger;
             }
         }
     }
@@ -1194,6 +1252,8 @@ public partial class @Basic : IInputActionCollection2, IDisposable
         void OnFire(InputAction.CallbackContext context);
         void OnLeftAlt(InputAction.CallbackContext context);
         void OnRightAlt(InputAction.CallbackContext context);
+        void OnLeftTrigger(InputAction.CallbackContext context);
+        void OnRightTrigger(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
