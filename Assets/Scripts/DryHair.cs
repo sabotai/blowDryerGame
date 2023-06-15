@@ -30,12 +30,12 @@ public class DryHair : MonoBehaviour
                 Debug.Log("has brush script");
                 if (col.gameObject.GetComponent<Brush>().brushActive) {
                     radChange *= -1f;
-                    GetComponent<AudioSource>().PlayOneShot(good);
+                    GetComponent<AudioSource>().PlayOneShot(good, 0.3f);
 
                 }
                 else {
                     radChange *= 0.1f;
-                    GetComponent<AudioSource>().PlayOneShot(bad);
+                    GetComponent<AudioSource>().PlayOneShot(bad, 0.1f);
                 }
             } else radChange = 0f;
             Debug.Log(radChange);

@@ -5,24 +5,26 @@ using UnityEngine;
 public class Brush : MonoBehaviour
 {
     public bool brushActive = false;
+    public float originalDrag;
     // Start is called before the first frame update
     void Start()
     {
-        
+        originalDrag = GetComponent<Rigidbody>().drag;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 
     void OnTriggerEnter(Collider col){
         if (col.gameObject.tag == "brush") brushActive = true;
+        GetComponent<Rigidbody>().drag = .1f;
         
     }
     void OnTriggerExit(Collider col){
         if (col.gameObject.tag == "brush") brushActive = false;
-        
+        GetComponent<Rigidbody>().drag = originalDrag;
     }
 }

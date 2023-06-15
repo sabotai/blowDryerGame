@@ -1141,7 +1141,7 @@ Rigidbody:
   m_GameObject: {fileID: 25427431}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -1159,7 +1159,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &25427436
 MeshRenderer:
@@ -1224,6 +1224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &27385258
 GameObject:
   m_ObjectHideFlags: 0
@@ -1813,7 +1814,7 @@ Rigidbody:
   m_GameObject: {fileID: 37674158}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -1927,7 +1928,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &37674163
 MeshRenderer:
@@ -2007,6 +2008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &58068788
 GameObject:
   m_ObjectHideFlags: 0
@@ -2804,7 +2806,7 @@ Rigidbody:
   m_GameObject: {fileID: 89038417}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -2918,7 +2920,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &89038422
 MeshRenderer:
@@ -2998,6 +3000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &105393289
 GameObject:
   m_ObjectHideFlags: 0
@@ -3240,7 +3243,7 @@ Rigidbody:
   m_GameObject: {fileID: 109030485}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -3354,7 +3357,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &109030490
 MeshRenderer:
@@ -3434,6 +3437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &120475020
 GameObject:
   m_ObjectHideFlags: 0
@@ -4436,7 +4440,7 @@ Rigidbody:
   m_GameObject: {fileID: 136926185}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -4550,7 +4554,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &136926190
 MeshRenderer:
@@ -4630,6 +4634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &137473730
 GameObject:
   m_ObjectHideFlags: 0
@@ -5083,7 +5088,7 @@ Rigidbody:
   m_GameObject: {fileID: 165608655}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -5197,7 +5202,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &165608660
 MeshRenderer:
@@ -5277,6 +5282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &170719244
 GameObject:
   m_ObjectHideFlags: 0
@@ -5308,7 +5314,7 @@ Rigidbody:
   m_GameObject: {fileID: 170719244}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -5422,7 +5428,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &170719249
 MeshRenderer:
@@ -5502,6 +5508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &173471473
 GameObject:
   m_ObjectHideFlags: 0
@@ -5955,7 +5962,7 @@ Rigidbody:
   m_GameObject: {fileID: 185801535}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -6069,7 +6076,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &185801540
 MeshRenderer:
@@ -6149,6 +6156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &188506273
 GameObject:
   m_ObjectHideFlags: 0
@@ -6602,7 +6610,7 @@ Rigidbody:
   m_GameObject: {fileID: 206715821}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -6716,7 +6724,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &206715826
 MeshRenderer:
@@ -6796,6 +6804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &218118897
 GameObject:
   m_ObjectHideFlags: 0
@@ -7174,7 +7183,7 @@ Rigidbody:
   m_GameObject: {fileID: 231212929}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -7288,7 +7297,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &231212934
 MeshRenderer:
@@ -7368,6 +7377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &237015236
 GameObject:
   m_ObjectHideFlags: 0
@@ -7957,7 +7967,7 @@ Rigidbody:
   m_GameObject: {fileID: 242871953}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -8071,7 +8081,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &242871958
 MeshRenderer:
@@ -8151,6 +8161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &246718681
 GameObject:
   m_ObjectHideFlags: 0
@@ -9719,7 +9730,7 @@ Rigidbody:
   m_GameObject: {fileID: 269558528}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -9833,7 +9844,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &269558533
 MeshRenderer:
@@ -9913,6 +9924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &271871025
 GameObject:
   m_ObjectHideFlags: 0
@@ -10810,7 +10822,7 @@ Rigidbody:
   m_GameObject: {fileID: 309616983}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -10924,7 +10936,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &309616988
 MeshRenderer:
@@ -11004,6 +11016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &311004418
 GameObject:
   m_ObjectHideFlags: 0
@@ -11229,6 +11242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &314901154
 GameObject:
   m_ObjectHideFlags: 0
@@ -12153,7 +12167,7 @@ Rigidbody:
   m_GameObject: {fileID: 319064335}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -12267,7 +12281,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &319064340
 MeshRenderer:
@@ -12347,6 +12361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!4 &319883273 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0457a3f05f17d2d41bf62576c0424abf, type: 3}
@@ -12594,7 +12609,7 @@ Rigidbody:
   m_GameObject: {fileID: 331845587}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -12708,7 +12723,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &331845592
 MeshRenderer:
@@ -12788,6 +12803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &333712440
 GameObject:
   m_ObjectHideFlags: 0
@@ -13829,7 +13845,7 @@ Rigidbody:
   m_GameObject: {fileID: 367688091}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -13943,7 +13959,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &367688096
 MeshRenderer:
@@ -14023,6 +14039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &371065891
 GameObject:
   m_ObjectHideFlags: 0
@@ -14054,7 +14071,7 @@ Rigidbody:
   m_GameObject: {fileID: 371065891}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -14168,7 +14185,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &371065896
 MeshRenderer:
@@ -14248,6 +14265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &372743094
 GameObject:
   m_ObjectHideFlags: 0
@@ -14473,6 +14491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &379214201
 GameObject:
   m_ObjectHideFlags: 0
@@ -15061,7 +15080,7 @@ Rigidbody:
   m_GameObject: {fileID: 389960548}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -15175,7 +15194,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &389960553
 MeshRenderer:
@@ -15255,6 +15274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &425100594
 GameObject:
   m_ObjectHideFlags: 0
@@ -15497,7 +15517,7 @@ Rigidbody:
   m_GameObject: {fileID: 426936410}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -15611,7 +15631,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &426936415
 MeshRenderer:
@@ -15691,6 +15711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &427135410
 GameObject:
   m_ObjectHideFlags: 0
@@ -15933,7 +15954,7 @@ Rigidbody:
   m_GameObject: {fileID: 442693319}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -16047,7 +16068,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &442693324
 MeshRenderer:
@@ -16127,6 +16148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &447021129
 GameObject:
   m_ObjectHideFlags: 0
@@ -16158,7 +16180,7 @@ Rigidbody:
   m_GameObject: {fileID: 447021129}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -16272,7 +16294,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &447021134
 MeshRenderer:
@@ -16352,6 +16374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &468526146
 GameObject:
   m_ObjectHideFlags: 0
@@ -16739,7 +16762,7 @@ Rigidbody:
   m_GameObject: {fileID: 497567197}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -16757,7 +16780,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &497567202
 MeshRenderer:
@@ -16822,6 +16845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &499393176
 GameObject:
   m_ObjectHideFlags: 0
@@ -17908,7 +17932,7 @@ Rigidbody:
   m_GameObject: {fileID: 537419892}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -18022,7 +18046,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &537419897
 MeshRenderer:
@@ -18102,6 +18126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &546341418
 GameObject:
   m_ObjectHideFlags: 0
@@ -18538,6 +18563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &561025733
 GameObject:
   m_ObjectHideFlags: 0
@@ -18780,7 +18806,7 @@ Rigidbody:
   m_GameObject: {fileID: 566246563}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -18894,7 +18920,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &566246568
 MeshRenderer:
@@ -18974,6 +19000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &566614992
 GameObject:
   m_ObjectHideFlags: 0
@@ -19200,7 +19227,7 @@ Rigidbody:
   m_GameObject: {fileID: 570481246}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -19314,7 +19341,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &570481251
 MeshRenderer:
@@ -19394,6 +19421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &577600316
 GameObject:
   m_ObjectHideFlags: 0
@@ -21253,7 +21281,7 @@ Rigidbody:
   m_GameObject: {fileID: 645576989}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -21367,7 +21395,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &645576994
 MeshRenderer:
@@ -21447,6 +21475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &646125271
 GameObject:
   m_ObjectHideFlags: 0
@@ -22229,6 +22258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &682686625
 GameObject:
   m_ObjectHideFlags: 0
@@ -24240,7 +24270,7 @@ Rigidbody:
   m_GameObject: {fileID: 711827694}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -24354,7 +24384,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &711827699
 MeshRenderer:
@@ -24434,6 +24464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &716368074
 GameObject:
   m_ObjectHideFlags: 0
@@ -25672,6 +25703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &773693122
 GameObject:
   m_ObjectHideFlags: 0
@@ -31180,7 +31212,7 @@ Rigidbody:
   m_GameObject: {fileID: 827819942}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -31294,7 +31326,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &827819947
 MeshRenderer:
@@ -31374,6 +31406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &830935661
 GameObject:
   m_ObjectHideFlags: 0
@@ -33205,6 +33238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &914068609
 GameObject:
   m_ObjectHideFlags: 0
@@ -34181,7 +34215,7 @@ Rigidbody:
   m_GameObject: {fileID: 942277283}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -34295,7 +34329,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &942277288
 MeshRenderer:
@@ -34375,6 +34409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &943565697
 GameObject:
   m_ObjectHideFlags: 0
@@ -34406,7 +34441,7 @@ Rigidbody:
   m_GameObject: {fileID: 943565697}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -34520,7 +34555,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &943565702
 MeshRenderer:
@@ -34600,6 +34635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &953175646
 GameObject:
   m_ObjectHideFlags: 0
@@ -35686,7 +35722,7 @@ Rigidbody:
   m_GameObject: {fileID: 975648291}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -35800,7 +35836,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &975648296
 MeshRenderer:
@@ -35880,6 +35916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &976664518
 GameObject:
   m_ObjectHideFlags: 0
@@ -36122,7 +36159,7 @@ Rigidbody:
   m_GameObject: {fileID: 977280292}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -36236,7 +36273,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &977280297
 MeshRenderer:
@@ -36316,6 +36353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &990636001
 GameObject:
   m_ObjectHideFlags: 0
@@ -38118,7 +38156,7 @@ Rigidbody:
   m_GameObject: {fileID: 1054404505}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -38232,7 +38270,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1054404510
 MeshRenderer:
@@ -38312,6 +38350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1054453477
 GameObject:
   m_ObjectHideFlags: 0
@@ -38554,7 +38593,7 @@ Rigidbody:
   m_GameObject: {fileID: 1058882390}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -38668,7 +38707,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1058882395
 MeshRenderer:
@@ -38748,6 +38787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1059586442
 GameObject:
   m_ObjectHideFlags: 0
@@ -40142,7 +40182,7 @@ Rigidbody:
   m_GameObject: {fileID: 1109642285}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -40256,7 +40296,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1109642290
 MeshRenderer:
@@ -40336,6 +40376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1117522564
 GameObject:
   m_ObjectHideFlags: 0
@@ -40367,7 +40408,7 @@ Rigidbody:
   m_GameObject: {fileID: 1117522564}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -40481,7 +40522,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1117522569
 MeshRenderer:
@@ -40561,6 +40602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1123308253
 GameObject:
   m_ObjectHideFlags: 0
@@ -40803,7 +40845,7 @@ Rigidbody:
   m_GameObject: {fileID: 1124278514}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -40917,7 +40959,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1124278519
 MeshRenderer:
@@ -40997,6 +41039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1128262899
 GameObject:
   m_ObjectHideFlags: 0
@@ -41450,7 +41493,7 @@ Rigidbody:
   m_GameObject: {fileID: 1141877754}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -41564,7 +41607,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1141877759
 MeshRenderer:
@@ -41644,6 +41687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1146862977
 GameObject:
   m_ObjectHideFlags: 0
@@ -41675,7 +41719,7 @@ Rigidbody:
   m_GameObject: {fileID: 1146862977}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -41789,7 +41833,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1146862982
 MeshRenderer:
@@ -41869,6 +41913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1148063482
 GameObject:
   m_ObjectHideFlags: 0
@@ -42744,7 +42789,7 @@ Rigidbody:
   m_GameObject: {fileID: 1170110128}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -42858,7 +42903,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1170110133
 MeshRenderer:
@@ -42938,6 +42983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1171617149
 GameObject:
   m_ObjectHideFlags: 0
@@ -43180,7 +43226,7 @@ Rigidbody:
   m_GameObject: {fileID: 1182469893}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -43294,7 +43340,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1182469898
 MeshRenderer:
@@ -43374,6 +43420,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1190469070
 GameObject:
   m_ObjectHideFlags: 0
@@ -45406,7 +45453,7 @@ Rigidbody:
   m_GameObject: {fileID: 1280869641}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -45520,7 +45567,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1280869646
 MeshRenderer:
@@ -45600,6 +45647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1282442621
 GameObject:
   m_ObjectHideFlags: 0
@@ -46159,7 +46207,7 @@ Rigidbody:
   m_GameObject: {fileID: 1322976442}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -46273,7 +46321,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1322976447
 MeshRenderer:
@@ -46353,6 +46401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1334812423
 GameObject:
   m_ObjectHideFlags: 0
@@ -46384,7 +46433,7 @@ Rigidbody:
   m_GameObject: {fileID: 1334812423}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -46498,7 +46547,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1334812428
 MeshRenderer:
@@ -46578,6 +46627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1335180662
 GameObject:
   m_ObjectHideFlags: 0
@@ -47727,6 +47777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1358556275
 GameObject:
   m_ObjectHideFlags: 0
@@ -48914,7 +48965,7 @@ Rigidbody:
   m_GameObject: {fileID: 1375223801}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -49028,7 +49079,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1375223806
 MeshRenderer:
@@ -49108,6 +49159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1377331006
 GameObject:
   m_ObjectHideFlags: 0
@@ -49480,7 +49532,7 @@ Rigidbody:
   m_GameObject: {fileID: 1389886696}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -49594,7 +49646,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1389886701
 MeshRenderer:
@@ -49674,6 +49726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1398797827
 GameObject:
   m_ObjectHideFlags: 0
@@ -49803,7 +49856,7 @@ Rigidbody:
   m_GameObject: {fileID: 1405929258}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -49917,7 +49970,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1405929263
 MeshRenderer:
@@ -49997,6 +50050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1420894009
 GameObject:
   m_ObjectHideFlags: 0
@@ -51212,7 +51266,7 @@ Rigidbody:
   m_GameObject: {fileID: 1449940111}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -51326,7 +51380,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1449940116
 MeshRenderer:
@@ -51406,6 +51460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1001 &1465596960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53149,7 +53204,7 @@ Rigidbody:
   m_GameObject: {fileID: 1507661075}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -53263,7 +53318,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1507661080
 MeshRenderer:
@@ -53343,6 +53398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1516287025
 GameObject:
   m_ObjectHideFlags: 0
@@ -53374,7 +53430,7 @@ Rigidbody:
   m_GameObject: {fileID: 1516287025}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -53488,7 +53544,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1516287030
 MeshRenderer:
@@ -53568,6 +53624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1534619762
 GameObject:
   m_ObjectHideFlags: 0
@@ -53810,7 +53867,7 @@ Rigidbody:
   m_GameObject: {fileID: 1537733849}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -53924,7 +53981,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1537733854
 MeshRenderer:
@@ -54004,6 +54061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1545004723
 GameObject:
   m_ObjectHideFlags: 0
@@ -54115,7 +54173,7 @@ Rigidbody:
   m_GameObject: {fileID: 1555419355}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -54229,7 +54287,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1555419360
 MeshRenderer:
@@ -54309,6 +54367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1568755107
 GameObject:
   m_ObjectHideFlags: 0
@@ -55244,7 +55303,7 @@ Rigidbody:
   m_GameObject: {fileID: 1589998286}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -55358,7 +55417,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1589998291
 MeshRenderer:
@@ -55438,6 +55497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1590766114
 GameObject:
   m_ObjectHideFlags: 0
@@ -55891,7 +55951,7 @@ Rigidbody:
   m_GameObject: {fileID: 1612265522}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -56005,7 +56065,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1612265527
 MeshRenderer:
@@ -56085,6 +56145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1618586853
 GameObject:
   m_ObjectHideFlags: 0
@@ -57058,7 +57119,7 @@ Rigidbody:
   m_GameObject: {fileID: 1641620050}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -57172,7 +57233,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1641620055
 MeshRenderer:
@@ -57252,6 +57313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1643491862
 GameObject:
   m_ObjectHideFlags: 0
@@ -63150,7 +63212,7 @@ Rigidbody:
   m_GameObject: {fileID: 1688427023}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -63264,7 +63326,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1688427028
 MeshRenderer:
@@ -63344,6 +63406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1689444241
 GameObject:
   m_ObjectHideFlags: 0
@@ -64491,7 +64554,7 @@ Rigidbody:
   m_GameObject: {fileID: 1708689565}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -64605,7 +64668,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1708689570
 MeshRenderer:
@@ -64685,6 +64748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1710294672
 GameObject:
   m_ObjectHideFlags: 0
@@ -65332,6 +65396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!4 &1711381285 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2d4c5cafb4423b74da1ffa6e9b94bdc4, type: 3}
@@ -65579,7 +65644,7 @@ Rigidbody:
   m_GameObject: {fileID: 1722175316}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -65693,7 +65758,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1722175321
 MeshRenderer:
@@ -65773,6 +65838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1727062371
 GameObject:
   m_ObjectHideFlags: 0
@@ -66226,7 +66292,7 @@ Rigidbody:
   m_GameObject: {fileID: 1736906986}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -66340,7 +66406,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1736906991
 MeshRenderer:
@@ -66420,6 +66486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1738795468
 GameObject:
   m_ObjectHideFlags: 0
@@ -66451,7 +66518,7 @@ Rigidbody:
   m_GameObject: {fileID: 1738795468}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -66565,7 +66632,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1738795473
 MeshRenderer:
@@ -66645,6 +66712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1743014609
 GameObject:
   m_ObjectHideFlags: 0
@@ -66870,6 +66938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1746400593
 GameObject:
   m_ObjectHideFlags: 0
@@ -67248,7 +67317,7 @@ Rigidbody:
   m_GameObject: {fileID: 1751222773}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -67362,7 +67431,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1751222778
 MeshRenderer:
@@ -67442,6 +67511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1757728620
 GameObject:
   m_ObjectHideFlags: 0
@@ -68528,7 +68598,7 @@ Rigidbody:
   m_GameObject: {fileID: 1772291783}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -68642,7 +68712,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1772291788
 MeshRenderer:
@@ -68722,6 +68792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1779585091
 GameObject:
   m_ObjectHideFlags: 0
@@ -68947,6 +69018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1781111857
 GameObject:
   m_ObjectHideFlags: 0
@@ -68978,7 +69050,7 @@ Rigidbody:
   m_GameObject: {fileID: 1781111857}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -69092,7 +69164,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1781111862
 MeshRenderer:
@@ -69172,6 +69244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1781541246
 GameObject:
   m_ObjectHideFlags: 0
@@ -69203,7 +69276,7 @@ Rigidbody:
   m_GameObject: {fileID: 1781541246}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -69317,7 +69390,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1781541251
 MeshRenderer:
@@ -69397,6 +69470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1799089057
 GameObject:
   m_ObjectHideFlags: 0
@@ -70129,7 +70203,7 @@ Rigidbody:
   m_GameObject: {fileID: 1812159796}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -70243,7 +70317,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1812159801
 MeshRenderer:
@@ -70323,6 +70397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1818387710
 GameObject:
   m_ObjectHideFlags: 0
@@ -71103,6 +71178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1835614941
 GameObject:
   m_ObjectHideFlags: 0
@@ -71682,7 +71758,7 @@ Rigidbody:
   m_GameObject: {fileID: 1843260534}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -71796,7 +71872,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1843260539
 MeshRenderer:
@@ -71876,6 +71952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1846503368
 GameObject:
   m_ObjectHideFlags: 0
@@ -72118,7 +72195,7 @@ Rigidbody:
   m_GameObject: {fileID: 1857191468}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -72232,7 +72309,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1857191473
 MeshRenderer:
@@ -72312,6 +72389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1858785426
 GameObject:
   m_ObjectHideFlags: 0
@@ -72689,7 +72767,7 @@ Rigidbody:
   m_GameObject: {fileID: 1868989125}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -72803,7 +72881,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1868989130
 MeshRenderer:
@@ -72883,6 +72961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1873461317
 GameObject:
   m_ObjectHideFlags: 0
@@ -74315,7 +74394,7 @@ Rigidbody:
   m_GameObject: {fileID: 1926197469}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -74429,7 +74508,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1926197474
 MeshRenderer:
@@ -74509,6 +74588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1928932011
 GameObject:
   m_ObjectHideFlags: 0
@@ -74849,7 +74929,7 @@ Rigidbody:
   m_GameObject: {fileID: 1931480603}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -74963,7 +75043,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1931480608
 MeshRenderer:
@@ -75043,6 +75123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1932486899
 GameObject:
   m_ObjectHideFlags: 0
@@ -76189,7 +76270,7 @@ Rigidbody:
   m_GameObject: {fileID: 1949607573}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -76303,7 +76384,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1949607578
 MeshRenderer:
@@ -76383,6 +76464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1952226821
 GameObject:
   m_ObjectHideFlags: 0
@@ -77469,7 +77551,7 @@ Rigidbody:
   m_GameObject: {fileID: 1990524887}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -77583,7 +77665,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1990524892
 MeshRenderer:
@@ -77663,6 +77745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &1992895029
 GameObject:
   m_ObjectHideFlags: 0
@@ -77805,7 +77888,7 @@ Rigidbody:
   m_GameObject: {fileID: 1992895029}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -77823,7 +77906,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1992895034
 MeshRenderer:
@@ -77888,6 +77971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &2010920421
 GameObject:
   m_ObjectHideFlags: 0
@@ -78316,7 +78400,7 @@ Rigidbody:
   m_GameObject: {fileID: 2017666983}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -78430,7 +78514,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2017666988
 MeshRenderer:
@@ -78510,6 +78594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &2027381331
 GameObject:
   m_ObjectHideFlags: 0
@@ -78541,7 +78626,7 @@ Rigidbody:
   m_GameObject: {fileID: 2027381331}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -78655,7 +78740,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2027381336
 MeshRenderer:
@@ -78735,6 +78820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &2028186503
 GameObject:
   m_ObjectHideFlags: 0
@@ -79050,7 +79136,7 @@ Rigidbody:
   m_GameObject: {fileID: 2053025818}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -79164,7 +79250,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2053025823
 MeshRenderer:
@@ -79244,6 +79330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &2061920992
 GameObject:
   m_ObjectHideFlags: 0
@@ -80487,7 +80574,7 @@ Rigidbody:
   m_GameObject: {fileID: 2092487821}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -80601,7 +80688,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2092487826
 MeshRenderer:
@@ -80681,6 +80768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &2094202017
 GameObject:
   m_ObjectHideFlags: 0
@@ -81903,7 +81991,7 @@ Rigidbody:
   m_GameObject: {fileID: 2125813029}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -82017,7 +82105,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2125813034
 MeshRenderer:
@@ -82097,6 +82185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &2129314865
 GameObject:
   m_ObjectHideFlags: 0
@@ -82128,7 +82217,7 @@ Rigidbody:
   m_GameObject: {fileID: 2129314865}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -82242,7 +82331,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2129314870
 MeshRenderer:
@@ -82322,6 +82411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &2140664140
 GameObject:
   m_ObjectHideFlags: 0
@@ -82353,7 +82443,7 @@ Rigidbody:
   m_GameObject: {fileID: 2140664140}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -82467,7 +82557,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2140664145
 MeshRenderer:
@@ -82547,6 +82637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &2141339428
 GameObject:
   m_ObjectHideFlags: 0
@@ -82578,7 +82669,7 @@ Rigidbody:
   m_GameObject: {fileID: 2141339428}
   serializedVersion: 2
   m_Mass: 20
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -82692,7 +82783,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2141339433
 MeshRenderer:
@@ -82772,6 +82863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brushActive: 0
+  originalDrag: 0
 --- !u!1 &2145173312
 GameObject:
   m_ObjectHideFlags: 0
