@@ -20,11 +20,9 @@ public class Brush : MonoBehaviour
 
     void OnTriggerEnter(Collider col){
         if (col.gameObject.tag == "brush") brushActive = true;
-        GetComponent<Rigidbody>().drag = .1f;
         
     }
     void OnTriggerExit(Collider col){
         if (col.gameObject.tag == "brush") brushActive = false;
-        GetComponent<Rigidbody>().drag = originalDrag;
     }
 }

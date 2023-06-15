@@ -6,6 +6,8 @@ public class DryHair : MonoBehaviour
 {
     public float speed = 15f;
     public AudioClip good, bad;
+    public float originalDrag = 5f;
+    public float lowDrag = 0.1f;
 
     // Start is called before the first frame update
     void Start()
@@ -42,5 +44,23 @@ public class DryHair : MonoBehaviour
             col.gameObject.GetComponent<SphereCollider>().radius += radChange * Time.deltaTime;
             if (col.gameObject.GetComponent<SphereCollider>().radius < 1.1f) col.gameObject.GetComponent<SphereCollider>().radius = 1.1f;
         }
+    }
+
+    void OnTriggerEnter(Collider col){
+        if (col.gameObject.tag == "hair" && col.gameObject.GetComponent<Brush>()){
+            if (col.gameObject.GetComponent<Brush>().brushActive){
+                col.gameObject.GetComponent<Rigidbody>().drag = lowDrag + originalDrag / 2f;
+            } else {
+                col.gameObject.GetComponent<Rigidbody>().drag = lowDrag;
+                col.gameObject.GetComponent<Rigidbody>().mass =1f;
+            }
+        }
+    }
+
+    void OnTriggerExit(Collider col){
+        if (col.gameObject.tag == "hair" && col.gameObject.GetComponent<Rigidbody>()){
+           col.gameObject.GetComponent<Rigidbody>().drag = originalDrag;
+                col.gameObject.GetComponent<Rigidbody>().mass =20f;
+       }
     }
 }
