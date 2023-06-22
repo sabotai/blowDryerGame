@@ -17,7 +17,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/HairGame4.unity
     guid: 1ce4143ab3e896846b2cf6df7f9b86dc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HairGame5.unity
     guid: ba08959241ddd184da8aa375bf919577
+  - enabled: 0
+    path: Assets/Scenes/HairGame7.unity
+    guid: 79bf87934eeefc2438cdb6cd5435197e
+  - enabled: 1
+    path: Assets/Scenes/HairGame9.unity
+    guid: 497a28686c5ec144fba9720fa13a40b7
   m_configObjects: {}
